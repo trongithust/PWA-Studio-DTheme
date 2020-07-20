@@ -1,0 +1,1 @@
+export { default } from '@magento/venia-ui/lib/components/SearchPage';
