@@ -43,9 +43,10 @@ yarn run watch:dtheme
 ```
 To run production
 ```
-NODE_ENV=production PORT=8080 npm run stage:dtheme
+NODE_ENV=production PORT=8080 yarn run stage:dtheme
 ```
 
 ## 5. Use custom SSL cert
+```
 yarn buildpack create-custom-origin packages/dtheme
 ```
